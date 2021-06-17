@@ -1,4 +1,4 @@
-package org.my.protobuf.gps;
+package org.my.guava.listening.protobuf.gps;
 
 import com.google.protobuf.InvalidProtocolBufferException;
 import com.google.protobuf.util.JsonFormat;

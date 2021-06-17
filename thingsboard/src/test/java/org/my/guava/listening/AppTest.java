@@ -1,4 +1,4 @@
-package org.my;
+package org.my.guava.listening;
 
 import static org.junit.Assert.assertTrue;
 

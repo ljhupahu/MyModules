@@ -1,4 +1,4 @@
-package org.my;
+package org.my.guava.listening;
 
 import org.thingsboard.rest.client.RestClient;
 import org.thingsboard.server.common.data.Device;

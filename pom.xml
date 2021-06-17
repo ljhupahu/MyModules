@@ -11,6 +11,7 @@
     <modules>
         <module>protobuf</module>
         <module>thingsboard</module>
+        <module>guava</module>
     </modules>
 
     <properties>
