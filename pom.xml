@@ -12,6 +12,7 @@
         <module>protobuf</module>
         <module>thingsboard</module>
         <module>guava</module>
+        <module>JDK</module>
     </modules>
 
     <properties>
