@@ -16,18 +16,11 @@
 syntax = "proto3";
 
 option java_package = "org.my.protobuf.gps.gen";
-option java_outer_classname = "GpsData";
+option java_outer_classname = "Teacher";
 
-message gps_data {
+message tea {
     int64 id = 1;
-    string terminalId = 2;
-    string dataTime = 3;
-    double lon = 4;
-    double lat = 5;
-    float speed = 6;
-    int32 altitude = 7;
-    int32 locType = 8;
-    int32 gpsStatus = 9;
-    float direction = 10;
-    int32 satellite = 11;
+    int32 age = 2;
+    string name = 3;
+    string course = 4;
 }
