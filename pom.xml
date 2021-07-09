@@ -13,6 +13,8 @@
         <module>thingsboard</module>
         <module>guava</module>
         <module>JDK</module>
+        <module>protocol</module>
+
     </modules>
 
     <properties>
@@ -50,6 +52,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${commons-lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.intelligt.modbus</groupId>
+            <artifactId>jlibmodbus</artifactId>
+            <version>1.2.9.7</version>
         </dependency>
     </dependencies>
     </dependencyManagement>

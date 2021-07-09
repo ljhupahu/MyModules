@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>thingsboard</artifactId>
-
+    <packaging>pom</packaging>
     <name>thingsboard</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
@@ -21,6 +21,10 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
     </properties>
+
+    <modules>
+        <module>actor</module>
+    </modules>
 
     <dependencies>
         <dependency>
