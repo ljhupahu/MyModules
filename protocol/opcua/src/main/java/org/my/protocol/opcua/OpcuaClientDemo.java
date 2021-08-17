@@ -21,7 +21,7 @@ public class OpcuaClientDemo {
 		ci.setHost("127.0.0.1"); // 安装opc电脑IP
 		ci.setDomain(""); // 域，为空就行
 		ci.setUser("ADMINISTRATOR"); // 电脑上自己建好的用户名
-		ci.setPassword("----------"); // 电脑上自己用户名的密码
+		ci.setPassword("711923"); // 电脑上自己用户名的密码
 		ci.setClsid("7BC0CC8E-482C-47CA-ABDC-0FE7F9C6E729"); // KEPServer的注册表ID，可以在“组件服务”里看到， 一般情况下各个电脑都一样
 		// ci.setProgId("");
 		// 要读取的标记

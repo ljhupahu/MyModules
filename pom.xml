@@ -14,8 +14,7 @@
         <module>guava</module>
         <module>JDK</module>
         <module>protocol</module>
-
-
+        <module>tools</module>
     </modules>
 
     <properties>
